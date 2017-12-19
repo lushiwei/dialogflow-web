@@ -19,7 +19,7 @@
     <dependency>
         <groupId>org.apache.tomcat.embed</groupId>
         <artifactId>tomcat-embed-logging-juli</artifactId>
-        <version>${tomcat.version}</version>
+        <version>8.5.2</version>
     </dependency>
     <dependency>
         <groupId>org.apache.tomcat.embed</groupId>
@@ -46,7 +46,7 @@
 -->
   </dependencies>
   <build>
-    <finalName>DialogflowWeb</finalName>
+    <finalName>dialogflow-web</finalName>
     <plugins>
         <plugin>
             <groupId>org.codehaus.mojo</groupId>
